@@ -180,3 +180,55 @@ __pycache__/
 .cache/
 # Windows metadata
 *:Zone.Identifier
+
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Windows metadata files
+*:Zone.Identifier
+
+# Downloaded model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# Generated predictions and local data
+outputs/
+output/
+output_pdf/
+input_pdfs/
+datasets/
+runs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.onnx
+outputs/
+runs/
+*:Zone.Identifier
+.env
